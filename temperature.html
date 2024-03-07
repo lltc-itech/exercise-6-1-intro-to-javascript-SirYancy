@@ -9,7 +9,11 @@
     <p>This web page converts Fahrenheit to Celsius.</p>
     
     <script>
-        /* YOUR CODE GOES HERE */
+        tempf = prompt("What's the temperature in fahrenheit?");
+        tempc = (tempf-32) * 0.5556;
+        document.write("<p>The temperature is: ");
+        document.write(tempc);
+        document.write(" degrees Celsius.</p>");
     </script>
     
 </body>
